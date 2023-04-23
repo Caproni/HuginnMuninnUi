@@ -8,6 +8,8 @@ import { BlogComponent } from './blog/blog.component';
 import { AlertWindowComponent } from './alert/alert.component';
 import { NoPageComponent } from './no-page/no-page.component';
 import { AppRoutingModule } from './app-routing.module';
+import { CvComponent } from './cv/cv.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { AppRoutingModule } from './app-routing.module';
     BlogComponent,
     AlertWindowComponent,
     NoPageComponent,
+    CvComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,
