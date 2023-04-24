@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "HuginnMuninnUi"
+  "defaultProject": "HuginnMuninnUi",
+  "cli": {
+    "analytics": false
+  }
 }
