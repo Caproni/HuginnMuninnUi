@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-cv',
+  selector: 'app-hmr-cv',
   templateUrl: './cv.component.html',
   styleUrls: ['./cv.component.css']
 })

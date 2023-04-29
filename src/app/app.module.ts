@@ -10,6 +10,7 @@ import { NoPageComponent } from './no-page/no-page.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CvComponent } from './cv/cv.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ProjectsComponent } from './projects/projects.component';
     NoPageComponent,
     CvComponent,
     ProjectsComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
