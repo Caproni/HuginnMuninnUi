@@ -1,110 +1,115 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>My CV</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
-    h1 {
-      font-size: 32px;
-      margin-bottom: 20px;
-    }
-    h2 {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
-    h3 {
-      font-size: 18px;
-      margin-bottom: 5px;
-    }
-    p {
-      margin-bottom: 10px;
-    }
-    ul {
-      margin-bottom: 10px;
-    }
-    li {
-      margin-bottom: 5px;
-    }
-    .section {
-      margin-bottom: 30px;
-    }
-    .section:last-child {
-      margin-bottom: 0;
-    }
-    .section-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 10px;
-    }
-    .section-header h2 {
-      margin: 0;
-    }
-    .section-header p {
-      margin: 0;
-      font-style: italic;
-    }
-    .section-content {
-      margin-left: 20px;
-    }
-  </style>
-</head>
-<body>
-<h1>Edmund Bennett PhD</h1>
-<p>Newcastle Upon Tyne, UK</p>
-<p>bennettedmund@gmail.com</p>
-
-<div class="section">
-  <div class="section-header">
-    <h2>Education</h2>
-    <p>2000-2004</p>
+<div class="header section-container flex">
+  <div class="block">
+    <h1 class="header-left">Edmund Bennett PhD MMATH</h1>
+    <p class="header-left">Data scientist team leader, offering software products and services, from dashboards, data pipelines and predictive modelling through to decision support.
+      Training in physics, statistics and data analysis and broad experience in the delivery of research outputs, simulation and
+      software products. A thought-leader capable of quickly identifying and solving issues, with strong software
+      development skills and a clear understanding of the practical considerations of delivery in an engineering context.
+      I am practical and collaborative, believing in intellectual honesty and the principle of least action in the pursuit of a solution,
+      balancing effort against value and opportunity cost while making decisions.</p>
   </div>
-  <div class="section-content">
-    <h3>Bachelor of Science in Computer Science</h3>
-    <p>Anytown University</p>
-    <ul>
-      <li>GPA: 3.8/4.0</li>
-      <li>Dean's List: all semesters</li>
-    </ul>
+  <div class="image-right">
+    <img ngSrc="https://bennettfamilyblobs.blob.core.windows.net/site-assets/ebennett.jfif" height="150" width="150" alt="Image of Edmund Bennett">
   </div>
 </div>
 
-<div class="section">
-  <div class="section-header">
-    <h2>Work Experience</h2>
-    <p>2004-Present</p>
-  </div>
-  <div class="section-content">
-    <h3>Senior Software Engineer</h3>
-    <p>Acme Corporation</p>
+<div class="section-container">
+  <h2>Skills</h2>
+  <hr>
+  <div class="section-container-content">
+    <p>Over a decade of post-PhD experience in the delivery of outcomes for clients in data science, software development and engineering</p>
     <ul>
-      <li>Lead development of new software product, resulting in $5 million in sales in first year</li>
-      <li>Managed team of 5 software engineers</li>
-    </ul>
-    <h3>Software Engineer</h3>
-    <p>XYZ Company</p>
-    <ul>
-      <li>Developed and maintained software applications for clients in various industries</li>
-      <li>Collaborated with team members to identify and solve technical challenges</li>
-    </ul>
-  </div>
-</div>
-
-<div class="section">
-  <div class="section-header">
-    <h2>Skills</h2>
-  </div>
-  <div class="section-content">
-    <ul>
-      <li>Programming languages: Java, JavaScript, Python, C#</li>
+      <li>Team leadership and people skills</li>
+      <li>Bid writing, cost estimation and work winning</li>
+      <li>Familiarity with various deployment environments including Azure, GCP & Kubernetes</li>
+      <li>Programming languages: Python, Java, JavaScript, C# and others</li>
       <li>Web development: HTML, CSS, Angular</li>
-      <li>Database management: SQL, MongoDB</li>
+      <li>Database management: SQL, MongoDB, Postgres</li>
       <li>Agile development methodologies</li>
     </ul>
   </div>
 </div>
-</body>
-</html>
+
+<div class="section-container">
+  <h2>Work Experience</h2>
+  <hr>
+  <div class="section-container-content">
+    <div class="block">
+      <div class="image-right">
+        <img ngSrc="https://bennettfamilyblobs.blob.core.windows.net/site-assets/1200px-Logo_ROSEN_Group.svg.png" width="100" height="60" alt="ROSEN Logo">
+      </div>
+      <h3>Work Group Lead</h3>
+      <p>2022 onwards, ROSEN Group Plc</p>
+      <ul>
+        <li>Currently leading ROSEN's development of predictive services for unpiggable oil & gas pipelines</li>
+        <li>Architecture and implementation of complex machine learning and deployment pipelines</li>
+        <li>Integration of RESTful API services into into other ROSEN software</li>
+        <li>Delivery of consultancy outcomes for clients</li>
+        <li>Leading a team of seven software developers and data scientists</li>
+      </ul>
+    </div>
+    <div class="block">
+      <div class="image-right">
+        <img ngSrc="https://bennettfamilyblobs.blob.core.windows.net/site-assets/GHD_Digital_Logo_Horizontal_Black_RGB.jpg" width="100" height="60" alt="GHD Logo">
+      </div>
+      <h3>Digital Intelligence Leader - EMEA Region</h3>
+      <p>2018-2022, GHD Digital</p>
+      <ul>
+        <li>Leading a team in the delivery of engineering, research and software outputs across multiple sectors, with
+          specific emphasis on energy and asset management</li>
+          <li>Lead role in the migration of a client-facing analytics dashboard between IaaS providers, including feature
+          development and bug fixes – using Python (data ingestion), C# (data access), Javascript (front-end) and acting as scrum master to an international team of developers</li>
+          <li>Advocate of automation and streamlining of processes in Python or similar, as appropriate.</li>
+          <li>Handling varied and fast-paced project-based work, including development of databases, GUIs and
+          simulations. Experience conducting audits of electricity and water networks
+          in Oman and UAE and developing data collection apps to facilitate this</li>
+      </ul>
+    </div>
+    <div class="block">
+      <div class="image-right">
+        <img ngSrc="https://bennettfamilyblobs.blob.core.windows.net/site-assets/accenture.png" width="120" height="60" alt="Accenture Logo">
+      </div>
+      <h3>Software Developer</h3>
+      <p>2016-2018, Accenture UK</p>
+      <ul>
+        <li>Software developer on a system used by more than 60 million people</li>
+        <li>Successfully delivering Public Service sector software projects both as team member and technical lead. Development roles primarily involving Java
+          and Scala, with use of various supporting technologies</li>
+        <li>Held developer and lead developer roles on several scrum teams, delivering according to agile methodologies</li>
+      </ul>
+    </div>
+    <div class="block">
+      <div class="image-right">
+        <img ngSrc="https://bennettfamilyblobs.blob.core.windows.net/site-assets/sea-1501547952.png" width="100" height="70" alt="SEA Logo">
+      </div>
+      <h3>Consultant</h3>
+      <p>2013-2016, Systems Engineering & Assessment Ltd</p>
+      <ul>
+        <li>Performed and presented research in defence domain, designing and conducting experiments and analysis of
+          data from experimental trials and simulations</li>
+        <li>Maritime rigid-body simulation and land-warfare concept development using on-the-man sensors and communications devices</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section-container">
+  <h2>Education</h2>
+  <hr>
+  <div class="section-container-content">
+    <h3>PhD Theoretical Condensed Matter Physics</h3>
+    <p>2009-2013, Univ. of St Andrews, UK</p>
+    <ul>
+      <li>Theoretical investigation into exotic magnetic systems using Majorana fermions</li>
+      <li>Development of strong analytical and research capabilities</li>
+    </ul>
+  </div>
+  <div class="section-container-content">
+    <h3>Masters of Mathematics MMATH</h3>
+    <p>2005-2009, Newcastle University, UK</p>
+    <ul>
+      <li>Various topics in applied mathematics and statistics</li>
+      <li>1st class (honours)</li>
+    </ul>
+  </div>
+</div>
