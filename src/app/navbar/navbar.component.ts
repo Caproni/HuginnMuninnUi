@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-hmr-navbar',
@@ -7,10 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  photosPath = '/photos';
+  @ViewChild('navbarCollapse') navbarCollapse!: ElementRef;
 
   constructor() { }
 
   ngOnInit(): void { }
+
+  closeNavbar(): void {
+    const navbarToggle = document.querySelector('.navbar-toggler');
+    if (navbarToggle && this.navbarCollapse.nativeElement.classList.contains('show')) {
+      navbarToggle.dispatchEvent(new Event('click'));
+    }
+  }
 
 }
